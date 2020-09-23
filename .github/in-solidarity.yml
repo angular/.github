@@ -1,0 +1,13 @@
+rules:
+  # TODO(josephperrott): After migrating away from master branch
+  # terminology, move check level to failure
+  master:
+    level: notice
+  slave:
+    level: failure
+  whitelist:
+    level: failure
+  blacklist:
+    level: failure
+ignore:
+ - ".github/in-solidarity.yml"
