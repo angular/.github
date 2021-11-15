@@ -8,6 +8,6 @@ rules:
   whitelist:
     level: failure
   blacklist:
-    level: failure
+    level: failure 
 ignore:
  - ".github/in-solidarity.yml"
