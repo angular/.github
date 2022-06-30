@@ -3,7 +3,8 @@ name: Org File Sync
 on:
   workflow_dispatch:
   push:
-    - main
+    branches:
+      - main
 
 # Declare default permissions as read only.
 permissions: read-all
