@@ -1,0 +1,22 @@
+name: Org File Sync
+
+on:
+  workflow_dispatch:
+  push:
+    - main
+
+# Declare default permissions as read only.
+permissions: read-all
+
+jobs:
+  org_file_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: angular/dev-infra/github-actions/org-file-sync@4abbb1173fa43b729c101f7dfcffa629f2aa7fe2
+        with:
+          angular-robot-key: ${{ secrets.ANGULAR_ROBOT_PRIVATE_KEY }}
+          repos: |
+            dev-infra
+          files: |
+            CODE_OF_CONDUCT.md
+            SECURITY.md
