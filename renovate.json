@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "semanticCommits": "enabled",
+  "semanticCommitType": "build",
+  "semanticCommitScope": "",
+  "dependencyDashboard": true,
+  "automerge": false,
+  "timezone": "America/Tijuana",
+  "enabledManagers": ["github-actions"],
+  "baseBranches": ["main"],
+  "packageRules": [
+    {
+      "matchPaths": [".github/workflows/org-sync.yml"],
+      "matchPackagePatterns": ["*"]
+    }
+  ]
+}
