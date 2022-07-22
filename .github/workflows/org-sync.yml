@@ -17,7 +17,13 @@ jobs:
         with:
           angular-robot-key: ${{ secrets.ANGULAR_ROBOT_PRIVATE_KEY }}
           repos: |
+            angular
+            angular-cli
+            components
+            code-of-conduct
             dev-infra
+            universal
+            vscode-ng-language-service
           files: |
             CODE_OF_CONDUCT.md
             SECURITY.md
