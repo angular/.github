@@ -3,7 +3,7 @@
   "semanticCommits": "enabled",
   "semanticCommitType": "build",
   "semanticCommitScope": "",
-  "dependencyDashboard": true,
+  "dependencyDashboard": false,
   "automerge": false,
   "timezone": "America/Tijuana",
   "enabledManagers": ["github-actions"],
