@@ -1,0 +1,12 @@
+optConfig:
+  optOutStrategy: true
+  optOutArchivedRepos: true
+  optOutRepos:
+    - angular.js
+    - clang-format
+    - clutz
+    - builtwith.angularjs.org
+    - jstd-jasmine
+    - angular-jquery-ui
+    - angular.js
+action: issue

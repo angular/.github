@@ -1,0 +1,9 @@
+optConfig:
+  optInRepos:
+    - .allstar
+    - angular
+    - angular-cli
+    - components
+    - dev-infra
+issueRepo: dev-infra
+issueLabel: "org policy violation"
