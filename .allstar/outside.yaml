@@ -1,0 +1,6 @@
+optConfig:
+  optOutStrategy: true
+  optOutArchivedRepos: true
+action: issue
+adminAllowed: false
+pushAllowed: false

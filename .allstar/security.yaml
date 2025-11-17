@@ -1,0 +1,4 @@
+optConfig:
+  optOutArchivedRepos: true
+  optOutStrategy: true
+action: issue
